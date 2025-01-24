@@ -35,9 +35,9 @@ const menuItems = [
     icon: ChartLine,
     url: "#",
     subItems: [
-      { title: "Performance Metrics", url: "#", icon: ChartBar },
-      { title: "Device Usage", url: "#", icon: ChartLine },
-      { title: "Data History", url: "#", icon: Database },
+      { title: "Performance Metrics", url: "/analytics/performance", icon: ChartBar },
+      { title: "Device Usage", url: "/analytics/usage", icon: ChartLine },
+      { title: "Data History", url: "/analytics/history", icon: Database },
     ],
   },
   {
@@ -45,9 +45,9 @@ const menuItems = [
     icon: AlertTriangle,
     url: "#",
     subItems: [
-      { title: "Active Alerts", url: "#", icon: Bell },
-      { title: "Alert History", url: "#", icon: AlertTriangle },
-      { title: "Alert Settings", url: "#", icon: Settings },
+      { title: "Active Alerts", url: "/alerts/active", icon: Bell },
+      { title: "Alert History", url: "/alerts/history", icon: AlertTriangle },
+      { title: "Alert Settings", url: "/alerts/settings", icon: Settings },
     ],
   },
   {
@@ -55,9 +55,9 @@ const menuItems = [
     icon: Settings,
     url: "#",
     subItems: [
-      { title: "User Management", url: "#", icon: Users },
-      { title: "Security", url: "#", icon: Shield },
-      { title: "Network", url: "#", icon: Network },
+      { title: "User Management", url: "/settings/users", icon: Users },
+      { title: "Security", url: "/settings/security", icon: Shield },
+      { title: "Network", url: "/settings/network", icon: Network },
     ],
   },
 ];
